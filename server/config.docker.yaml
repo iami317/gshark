@@ -22,11 +22,11 @@ jwt:
 local:
   path: uploads/file
 mysql:
-  path: 177.7.0.13:3306
+  path: 192.168.100.148:3306
   config: charset=utf8mb4&parseTime=True&loc=Local
   db-name: gshark
   username: root
-  password: madneal
+  password: Secops@123
   max-idle-conns: 0
   max-open-conns: 0
   log-mode: false
