@@ -37,7 +37,7 @@ search:
   searchnum: 10
 system:
   env: public
-  addr: 8888
+  addr: 9999
   db-type: mysql
   oss-type: local
   use-multipoint: false
