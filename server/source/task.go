@@ -11,7 +11,7 @@ var tasks = []model.Task{
 	{TaskType: "github", Name: "github task", TaskStatus: true},
 	{TaskType: "gitlab", Name: "gitlab task", TaskStatus: true},
 	{TaskType: "postman", Name: "postman task", TaskStatus: true},
-	{TaskType: "searchcode", Name: "searchcode task", TaskStatus: true},
+	{TaskType: "searchCode", Name: "searchCode task", TaskStatus: true},
 }
 
 func Init() error {
