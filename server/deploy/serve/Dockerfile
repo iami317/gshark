@@ -21,5 +21,5 @@ COPY --from=0 /go/src/github.com/madneal/gshark/server/gshark ./
 COPY --from=0 /go/src/github.com/madneal/gshark/server/resource ./resource/
 COPY --from=0 /go/src/github.com/madneal/gshark/server/config.docker.yaml ./
 
-EXPOSE 8888
+EXPOSE 9999
 ENTRYPOINT ./gshark serve

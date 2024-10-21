@@ -25,8 +25,7 @@ func main() {
 		},
 	}
 	var configFile string
-	rootCmd.PersistentFlags().StringVarP(&configFile, "config", "c", "config.yaml",
-		"config file")
+	rootCmd.PersistentFlags().StringVarP(&configFile, "config", "c", "config.yaml", "config file")
 	serveCmd := &cobra.Command{
 		Use:   "serve",
 		Short: "Start the gshark server",
